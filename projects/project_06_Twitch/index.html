@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>freeCodeCamp Twitch Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../libs/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Tillana" rel="stylesheet">
+    <script type="text/javascript" src="../libs/jquery/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="../libs/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../libs/twitch-js-sdk-master/twitch.js"></script>
+    <script type="text/javascript" src="twitcher.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            twitcher.getFccStreams(function(success){
+                if (success){
+                    twitcher.fcc.streams.forEach(function(item){
+                        var html = twitcher.createFccStreamInfo(item);
+                        if (item.stream === null){
+                            $("#tab-offline").append(html);
+                        }
+                        else{
+                            $("#tab-online").append(html);
+                        }
+                        $("#tab-all").append(html);
+                    })
+                }
+                else{
+                    console.log("failed to get local fcc");
+                }
+            });
+            
+            twitcher.getFeaturedStreams(function(success){
+                if(success){
+                    twitcher.featured.streams.forEach(function(item){
+                        html = twitcher.createFeaturedStreamInfo(item);
+                        $("#tab-featured").append(html);
+                    });
+                }
+                else{
+                    console.log("twitcher failed to get any featured streams");
+                }
+            });
+        });
+        /*Twitch.init({clientId: "b6l5tb86lvzi4sc7bqty5t3plpiy8ai"}, function(error, status){
+            
+        });*/
+    </script>
+</head>
+<body class="main-bg">
+    <div class="container">
+        <div class="row row-centered">
+            <div class="col-xs-12">
+                <div class="title font-main">Twitcher</div>
+            </div>
+        </div>
+        <div class="row" role="navigation">
+            <div class="col-xs-8 col-xs-offset-2">
+                <ul class="nav nav-tabs" data-tabs="tabs">
+                    <li class="nav active font-main"><a href="#tab-featured" data-toggle="tab" class="tab-title">Featured</a></li>
+                    <li class="nav font-main"><a href="#tab-online" data-toggle="tab" class="tab-title">Online</a></li>
+                    <li class="nav font-main"><a href="#tab-offline" data-toggle="tab" class="tab-title">Offline</a></li>
+                    <li class="nav font-main"><a href="#tab-all" data-toggle="tab" class="tab-title">All</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane active fade in" id="tab-featured">
+            </div>
+            <div class="tab-pane fade" id="tab-online">
+            </div>
+            <div class="tab-pane fade" id="tab-offline">
+            </div>
+            <div class="tab-pane fade" id="tab-all">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

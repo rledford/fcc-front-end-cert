@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="../libs/jquery-ui-1.12.0/jquery-ui.min.css">
+    <link rel="stylesheet" href="../libs/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="../libs/jquery/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="../libs/jquery-ui-1.12.0/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+        var toggleVisibility = function(elementId){
+            var elem = document.getElementById(elementId);
+            if (elem.style.display === 'block'){
+                elem.style.display = 'none';
+            }
+            else{
+                elem.style.display = 'block';
+            }
+        };
+    </script>
+</head>
+<body>
+    <div id="dialog" style="display: none">Choose your symbol. X always goes first.</div>
+    <div id="winner" style="display: none"><span id="winner-val"></span> wins!</div>
+    <div style="display: none;">
+        <img id="bg" src="textures/bg.png" width="50" height="50">
+        <img id="x" src="textures/x.png" width="50" height="50">
+        <img id="o" src="textures/o.png" width="50" height="50">
+    </div>
+    <div style="text-align: center">
+        <canvas id="game-window" width="300" height="300"></canvas>
+    </div>
+    <script type="text/javascript" src="tile.js"></script>
+    <script type="text/javascript" src="tictactoe.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+.forecast-bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/weather-fc-bg.png");
+    background-position: center;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+.body-bg{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("../images/weather-bg.jpg");
+    background-position: center;
+}
+.box{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    z-index: 0;
+}
+.box-top-left{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    z-index: 1;
+}
+.box-btm-right{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    z-index: 1;
+}
+.row-centered{
+    text-align: center;
+}
+.col-centered{
+    display: inline-block;
+    text-align: center;
+}
+.title-text{
+    font-family: "Bree Serif", serif;
+    font-size: 48px;
+}
+.status-text{
+    font-family: "Bree Serif", serif;
+    font-size: 18px;
+}
+.input-text{
+    font-family: "Bree Serif", serif;
+    font-size: 14px;
+}
+.font-fc-date{
+    font-family: "Bree Serif", serif;
+    font-size: 32px;
+    color: dimgray;
+    text-align: left;
+    margin-left: 2%;
+}
+.font-fc-desc{
+    font-family: "Bree Serif", serif;
+    font-size: 48px;
+    color: black;
+    text-align: left;
+    margin-left: 6%;
+}
+.font-fc-high{
+    font-family: "Bree Serif", serif;
+    font-size: 32px;
+    color: crimson;
+    margin-right: 6%;
+    text-align: right;
+}
+.font-fc-low{
+    font-family: "Bree Serif", serif;
+    font-size: 32px;
+    color: dodgerblue;
+    margin-right: 2%;
+    text-align: right;
+
+}
+.weather-icon{
+    font-size: 300px;
+    color: coral;
+}

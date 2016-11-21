@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" style="text-align: center">
+        <div>
+            <div>
+                <input id="calc-text-prim" class="calc-text-prim" type="text" class="calc-text-prim" value="0" readonly>
+            </div>
+            <div>
+                <input id="calc-text-sec" type="text" class="calc-text-sec" value="0" readonly>
+            </div>
+        </div>
+        <div id="button-area">
+            <div>
+                <button class="calc-btn calc-btn-2xW calc-font" value="ac" onclick="onClearAll()">AC</button>
+                <button class="calc-btn calc-font" value="ec" onclick="onClearLast()">EC</button>
+                <button class="calc-btn calc-font" value="*" onclick="onClickOp(this)">*</button>
+            </div>
+            <div>
+                <button class="calc-btn calc-num" value="7" onclick="onClickNum(this)">7</button>
+                <button class="calc-btn calc-num" value="8" onclick="onClickNum(this)">8</button>
+                <button class="calc-btn calc-num" value="9" onclick="onClickNum(this)">9</button>
+                <button class="calc-btn calc-font" value="/" onclick="onClickOp(this)">÷</button>
+            </div>
+            <div>
+                <button class="calc-btn calc-num" value="4" onclick="onClickNum(this)">4</button>
+                <button class="calc-btn calc-num" value="5" onclick="onClickNum(this)">5</button>
+                <button class="calc-btn calc-num" value="6" onclick="onClickNum(this)">6</button>
+                <button class="calc-btn calc-font" value="+" onclick="onClickOp(this)">+</button>
+            </div>
+            <div>
+                <button class="calc-btn calc-num" value="1" onclick="onClickNum(this)">1</button>
+                <button class="calc-btn calc-num" value="2" onclick="onClickNum(this)">2</button>
+                <button class="calc-btn calc-num" value="3" onclick="onClickNum(this)">3</button>
+                <button class="calc-btn calc-font" value="-" onclick="onClickOp(this)">-</button>
+            </div>
+            <div>
+                <button class="calc-btn calc-btn-2xW calc-num" value="0" onclick="onClickNum(this)">0</button>
+                <button class="calc-btn calc-num" value="." onclick="onClickNum(this)">.</button>
+                <button class="calc-btn calc-font" value="=" onclick="onClickOp(this)">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    var txtPrim = document.getElementById("calc-text-prim");
+    var txtSec = document.getElementById("calc-text-sec");
+    var toSolve = [];
+    var onClearAll = function(){
+        txtPrim.value = "0";
+        txtSec.value = "0";
+    };
+    
+    var onClearLast = function(){
+        txtPrim.value = "0";
+    };
+    
+    var onClickNum = function(obj){
+        var val = obj.value;
+        var prim = txtPrim.value;
+        if (val === "." && txtPrim.value.indexOf(".") !== -1){
+            return;
+        }
+        if (prim === "0"){
+            txtPrim.value = "";
+        }
+        txtPrim.value += val;
+    };
+    
+    var getAnswer = function(a, op, b){
+        switch(op){
+            case "*":
+                return a*b;
+                break;
+            case "+":
+                return a+b;
+                break;
+            case "-":
+                return a-b;
+                break;
+            case "/":
+                if (b != 0){
+                    return a/b;
+                }
+                else{
+                    txtPrim.value = "Divide by Zero";
+                    return "error";
+                }
+                break;
+            default:
+                return 0;
+        }
+    }
+    
+    var solve = function(){
+        var a = null;
+        var b = null;
+        var op = null;
+        var ans = null;
+        while(toSolve.length > 1){
+            var item = toSolve.shift();
+            if (op === null){
+                if (a === null){
+                    a = Number(item);
+                }
+                else{
+                    op = item;
+                }
+            }
+            else{
+                b = Number(item);
+                ans = getAnswer(a, op, b);
+                if (ans === "error"){
+                    return;
+                }
+                a = ans;
+                op = null;
+                b = null;
+            }
+        }
+        txtSec.value += ans;
+        txtPrim.value = ans;
+    }
+    
+    var onClickOp = function(obj){
+        var op = obj.value;
+        if (txtSec.value === "0" || txtSec.value.indexOf("=") === -1){
+            txtSec.value = "";
+        }
+        if (txtPrim.value.indexOf(".") !== -1){
+            //remove extra zeros in floating point number
+            txtPrim.value = parseFloat(txtPrim.value).toString();
+        }
+        toSolve.push(txtPrim.value);
+        toSolve.push(op);
+        txtSec.value = toSolve.join('');
+        if (op === "="){
+            solve();
+            toSolve = [];
+        }
+        else{
+            txtPrim.value = "0";
+        }
+    };
+</script>
+</html>

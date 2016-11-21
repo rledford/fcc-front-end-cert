@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="../libs/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../libs/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../libs/animate/animate.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="../libs/jquery/jquery-3.0.0.js"></script>
+    <script type="text/javascript" src="EventManager.js"></script>
+    <script type="text/javascript" src="WikiGetter.js"></script>
+    <script type="text/javascript" src="ResultHandler.js"></script>
+    <script type="text/javascript" src="event-callbacks.js"></script>
+    <script type="text/javascript">
+        //set WikiGetter language so that it will prefix all requests appropriately
+        //if this is not called, WikiGetter.language defaults to en
+        WikiGetter.setLanguage(navigator.language);
+        /*
+        All html element interaction and jQuery functions go here
+        */
+        var onClickActionRandom = function () {
+            WikiGetter.beginSearch("*RANDOM-SEARCH-REQUEST*", $("#result-limit").val());
+        };
+        var onClickActionSearch = function () {
+            //WikiGetter.loadLocalResult("wiki-result.json");
+            //WikiGetter.loadLocalResult("large-wiki-result.json");
+            WikiGetter.beginSearch($("#search-terms").val(), $("#result-limit").val());
+        };
+        
+        //allow pressing Enter in search terms or result limit to trigger onClickActionSearch()
+        $(document).ready(function(){
+            $("#search-terms").keypress(function(event){
+                switch(event.key){
+                    case "Enter":
+                        onClickActionSearch();
+                        break;
+                }
+            });
+            $("#result-limit").keypress(function(event){
+                switch(event.key){
+                    case "Enter":
+                        onClickActionSearch();
+                        break;
+                }
+            })
+        });
+    </script>
+</head>
+<body class="bg-color-primary-darker">
+    <!-- required input field ids 'search-terms', 'result-limit' -->
+    <!-- required button actions onClikcActionSearch(), onClickActionRandom() -->
+    <div class="container">
+        <div class="row title-header text-color-white">Search Wikipedia</div>
+        <div class="row row-centered search-form-area bg-color-primary-med">
+            <div class="form-inline">
+                <div class="form-group">
+                    <input id="search-terms" type="text" class="form-control search-query" placeholder="What are you looking for?">
+                    <select id="result-limit" class="form-control">
+                        <option>10</option>
+                        <option>25</option>
+                        <option>50</option>
+                    </select>
+                    <button class="btn btn-primary" onclick="onClickActionSearch()">Search</button>
+                    <button class="btn btn-secondary" onclick="onClickActionRandom()">Random</button>
+                </div>
+            </div>
+            <div class="row row-centered">
+                <div id="status-text" class="">Search for anything on Wikipedia!</div>
+            </div>
+        </div>
+        <!-- basic idea that when a random page is requested, it may get loaded into an iframe with a link above it -->
+        <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="link-warning" style="display: inline-block"></div>
+                <div id="external-link" style="display: inline-block"></div>
+            </div>
+        </div>
+        <div id="results" class="row bg-color-primary-med" style="padding: 15px; border-radius: 5px">
+            View my <a target="_blank" href="http://codepen.io/rledford/"><u> Codepen</u><span class="glyphicon glyphicon-new-window"</span></a> projects or check me out on <a target="_blank" href="https://github.com/rledford"><u>GitHub<span class="glyphicon glyphicon-new-window"</span></u></a>
+        </div>
+    </div>
+</body>
+</html>

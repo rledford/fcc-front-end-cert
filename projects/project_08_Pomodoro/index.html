@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../libs/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="../libs/jquery/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="pomodoro.js"></script>
+    <title>
+    </title>
+</head>
+<body style="background-color: black">
+    <div class="container">
+        <div class="row" style="text-align: center">
+            <div class="col-xs-6">
+                <div class="rest-time-label">Rest</div>
+                <button onclick="pomodoro.subRestMin()">-</button>
+                <span class="rest-time" id="restTime" style="color: dodgerblue; font-size: 50px"></span>
+                <button onclick="pomodoro.addRestMin()">+</button>
+            </div>
+            <div class="col-xs-6">
+                <div class="work-time-label">Work</div>
+                <button onclick="pomodoro.subWorkMin()">-</button>
+                <span class="work-time" id="workTime"></span>
+                <button onclick="pomodoro.addWorkMin()">+</button>
+            </div>
+        </div>
+        <div class="row" style="text-align: center">
+            <div id="state-label" class="remaining-time-label">Remaining</div>
+            <div class="col-xs-12">
+                <div>
+                    <span id="remainingTime"></span>
+                </div>
+                <button class="btn btn-primary" id="toggle-clock" onclick="pomodoro.toggle()">Toggle</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        pomodoro.init($("#restTime"), $("#workTime"), $("#remainingTime"), $("#state-label"), $("#toggle-clock"));
+    </script>
+</body>
+</html>

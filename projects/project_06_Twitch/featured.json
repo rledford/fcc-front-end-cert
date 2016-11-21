@@ -1,0 +1,1533 @@
+{
+	"_links" : {
+		"self" : "https://api.twitch.tv/kraken/streams/featured?limit=25&offset=0",
+		"next" : "https://api.twitch.tv/kraken/streams/featured?limit=25&offset=25"
+	},
+	"featured" : [{
+			"text" : "<p>Welcome to the Evil Eight - Part of the Vainglory Summer Season powered by Amazon Coins. Watch as the top Vainglory teams compete for a $20,000 prize pool and to secure their spot for the Live Championships in September!</p>\n\n<br>\n\n\n<p><a href=\"/vainglory\">Click here</a> to watch and chat!</p>\n\n<p><a href=\"esports,league\"></a></p>\n",
+			"title" : "Vainglory Evil Eight - Split 2 Week 1",
+			"sponsored" : false,
+			"priority" : 4,
+			"scheduled" : true,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/vainglory_fp_evileight2016.png",
+			"stream" : {
+				"_id" : 22488577424,
+				"game" : "Vainglory",
+				"viewers" : 3181,
+				"video_height" : 720,
+				"average_fps" : 60.5179704017,
+				"delay" : 0,
+				"created_at" : "2016-07-24T15:45:59Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_vainglory-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_vainglory-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_vainglory-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_vainglory-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/vainglory"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Evil Eight - Split 2 Week 1",
+					"broadcaster_language" : "en",
+					"display_name" : "Vainglory",
+					"game" : "Vainglory",
+					"language" : "en",
+					"_id" : 7352265,
+					"name" : "vainglory",
+					"created_at" : "2009-07-23T04:20:26Z",
+					"updated_at" : "2016-07-24T17:34:38Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/vainglory-profile_image-d9d561d65461cc5c-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/vainglory-channel_offline_image-0fcdce1b19efd89d-1920x1080.jpeg",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/vainglory-profile_banner-831a13da73bc8378-480.jpeg",
+					"profile_banner_background_color" : "#000000",
+					"partner" : true,
+					"url" : "https://www.twitch.tv/vainglory",
+					"views" : 6603271,
+					"followers" : 81416,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/vainglory",
+						"follows" : "https://api.twitch.tv/kraken/channels/vainglory/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/vainglory/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/vainglory/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/vainglory",
+						"features" : "https://api.twitch.tv/kraken/channels/vainglory/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/vainglory/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/vainglory/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/vainglory/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/vainglory/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>ESA 2016 is a speedrunning-centered community meetup and charity marathon in Vaxjö, Sweden from July 23rd-July 29th. ESA 2016 is collecting donations towards the Save the Children, a charity giving children around the world a healthy start, the opportunity to learn and protection from harm.</p>\n\n<br>\n\n\n<p><a href=\"/esamarathon\">Click here</a> to watch and join the cause!</p>\n\n<p><a href=\"communitysuccess,charity\"></a></p>\n",
+			"title" : "European Speedrunner Assembly",
+			"sponsored" : false,
+			"priority" : 5,
+			"scheduled" : true,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/esamarathon_fp_072316.png",
+			"stream" : {
+				"_id" : 22488660448,
+				"game" : "Spyro 2: Ripto's Rage!",
+				"viewers" : 5887,
+				"video_height" : 720,
+				"average_fps" : 60,
+				"delay" : 0,
+				"created_at" : "2016-07-24T15:53:43Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_esamarathon-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_esamarathon-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_esamarathon-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_esamarathon-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/esamarathon"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Raising money for Save the Children - Spyro 2: Ripto's Rage! by Tyzerra",
+					"broadcaster_language" : "en",
+					"display_name" : "esamarathon",
+					"game" : "Spyro 2: Ripto's Rage!",
+					"language" : "en",
+					"_id" : 54739364,
+					"name" : "esamarathon",
+					"created_at" : "2014-01-10T17:44:50Z",
+					"updated_at" : "2016-07-24T17:34:37Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/esamarathon-profile_image-a503aefcca04fe78-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/esamarathon-channel_offline_image-f5d141ac9413860e-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/esamarathon-profile_banner-3e8152db27943df2-480.png",
+					"profile_banner_background_color" : "#ff8700",
+					"partner" : true,
+					"url" : "https://www.twitch.tv/esamarathon",
+					"views" : 3462491,
+					"followers" : 47262,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/esamarathon",
+						"follows" : "https://api.twitch.tv/kraken/channels/esamarathon/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/esamarathon/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/esamarathon/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/esamarathon",
+						"features" : "https://api.twitch.tv/kraken/channels/esamarathon/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/esamarathon/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/esamarathon/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/esamarathon/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/esamarathon/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>SKYLLA is a grassroots tournament series with the aim to act as a proving ground for new and upcoming teams. Over the course of 7 tournaments, a total prize pool of 17,500 Dollar will be given away. With open qualifiers for female teams, paired with direct invites (both male and female teams), this tournament series will become a benchmark for the participating teams!</p>\n\n<br>\n\n\n<p><a href=\"/skyllagg\">Click here</a> to watch and chat.</p>\n",
+			"title" : "SKYLLA",
+			"sponsored" : false,
+			"priority" : 5,
+			"scheduled" : true,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/skylla_fem_csgo_thumb.png",
+			"stream" : {
+				"_id" : 22489035728,
+				"game" : "Counter-Strike: Global Offensive",
+				"viewers" : 262,
+				"video_height" : 1080,
+				"average_fps" : 30,
+				"delay" : 0,
+				"created_at" : "2016-07-24T16:27:05Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_skyllagg-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_skyllagg-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_skyllagg-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_skyllagg-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/skyllagg"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "SKYLLA - CS:GO Tournament Series - Team Property vs LGB - 0:0",
+					"broadcaster_language" : "en",
+					"display_name" : "SKYLLAGG",
+					"game" : "Counter-Strike: Global Offensive",
+					"language" : "en",
+					"_id" : 122184701,
+					"name" : "skyllagg",
+					"created_at" : "2016-04-19T11:09:31Z",
+					"updated_at" : "2016-07-24T17:44:25Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/skyllagg-profile_image-199447d3b3daec70-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/skyllagg-channel_offline_image-dc69fd6efd6d620a-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/skyllagg-profile_banner-acc6cade5088799b-480.png",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/skyllagg",
+					"views" : 655070,
+					"followers" : 1102,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/skyllagg",
+						"follows" : "https://api.twitch.tv/kraken/channels/skyllagg/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/skyllagg/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/skyllagg/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/skyllagg",
+						"features" : "https://api.twitch.tv/kraken/channels/skyllagg/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/skyllagg/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/skyllagg/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/skyllagg/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/skyllagg/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Radius Festival is a celebration of video games for everyone, a games exhibition, live show and game jam. On the show Vlambeer's Rami Ismail, Adriel Wallick, Georg Backer and guests present exiting games big and small directly with their developers and check in with the game jam - with the winning games presented on the Sunday show. Together they discover the great diversity of the games world, full of talent, entertainment and fun.</p>\n\n<br>\n\n\n<p><a href=\"/radiusfestival\">Click here</a> to watch and chat.</p>\n",
+			"title" : "Radius Festival",
+			"sponsored" : false,
+			"priority" : 5,
+			"scheduled" : true,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/radius_fp_thumbnail.png",
+			"stream" : {
+				"_id" : 22489375328,
+				"game" : null,
+				"viewers" : 31,
+				"video_height" : 1080,
+				"average_fps" : 25,
+				"delay" : 0,
+				"created_at" : "2016-07-24T16:56:25Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_radiusfestival-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_radiusfestival-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_radiusfestival-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_radiusfestival-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/radiusfestival"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Welcome to the Radiusfestival.com Live Show!",
+					"broadcaster_language" : "en",
+					"display_name" : "RadiusFestival",
+					"game" : null,
+					"language" : "en",
+					"_id" : 62118512,
+					"name" : "radiusfestival",
+					"created_at" : "2014-05-04T17:08:17Z",
+					"updated_at" : "2016-07-24T17:34:22Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/radiusfestival-profile_image-df52c3537799441f-300x300.png",
+					"banner" : null,
+					"video_banner" : null,
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/radiusfestival-profile_banner-90a1e1f30c62f82f-480.png",
+					"profile_banner_background_color" : "#ffffff",
+					"partner" : true,
+					"url" : "https://www.twitch.tv/radiusfestival",
+					"views" : 484578,
+					"followers" : 207,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/radiusfestival",
+						"follows" : "https://api.twitch.tv/kraken/channels/radiusfestival/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/radiusfestival/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/radiusfestival/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/radiusfestival",
+						"features" : "https://api.twitch.tv/kraken/channels/radiusfestival/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/radiusfestival/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/radiusfestival/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/radiusfestival/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/radiusfestival/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>For its fifth time SeatStory Cup V is being held by TaKeTV. Once again world bests Hearthstone players will travel around the globe to crown a new champion. The players will fight for a total prizepool of $20.000. Joining on the venue are players like Reynad, Ostkaka, Lifecoach and many more!</p>\n\n<br>\n\n\n<p><a href=\"/taketv_hs\">Click here</a> to watch and chat!</p>\n\n<p><a href=\"contentmkt,tournament\"></a></p>\n",
+			"title" : "SeatStory Cup V",
+			"sponsored" : false,
+			"priority" : 5,
+			"scheduled" : true,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/taketv_hs_fp_july2016.png",
+			"stream" : {
+				"_id" : 22488851488,
+				"game" : "Hearthstone: Heroes of Warcraft",
+				"viewers" : 49239,
+				"video_height" : 720,
+				"average_fps" : 60,
+				"delay" : 0,
+				"created_at" : "2016-07-24T16:10:27Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_taketv_hs-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_taketv_hs-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_taketv_hs-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_taketv_hs-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/taketv_hs"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Final Day! SeatStory Cup V - powered by NEEDforSEAT",
+					"broadcaster_language" : "en",
+					"display_name" : "TaKeTV_HS",
+					"game" : "Hearthstone: Heroes of Warcraft",
+					"language" : "en",
+					"_id" : 52288508,
+					"name" : "taketv_hs",
+					"created_at" : "2013-11-28T09:57:28Z",
+					"updated_at" : "2016-07-24T17:34:26Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/taketv_hs-profile_image-46a33526f3871a98-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/taketv_hs-channel_offline_image-818f95e7b2a4a423-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/taketv_hs-profile_banner-a92ae272d6099d7f-480.png",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/taketv_hs",
+					"views" : 12115602,
+					"followers" : 72535,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/taketv_hs",
+						"follows" : "https://api.twitch.tv/kraken/channels/taketv_hs/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/taketv_hs/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/taketv_hs/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/taketv_hs",
+						"features" : "https://api.twitch.tv/kraken/channels/taketv_hs/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/taketv_hs/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/taketv_hs/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/taketv_hs/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/taketv_hs/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>There are some amazing smaller broadcasters on Twitch, and we want these rising stars to have an opportunity to showcase what they're all about. That's where the Twitch Partner Spotlight comes in. Every week we choose an up-and-coming broadcaster for some guaranteed front page and social media exposure and help them share their talents with a wider audience.</p>\n\n<br>\n\n\n<p><a href=\"/GalacticElliot\">Click here</a> to watch this week's pick!</p>\n\n<p><a href=\"twitchweekly,spotlight\"></a></p>\n",
+			"title" : "Twitch Partner Spotlight",
+			"sponsored" : false,
+			"priority" : 8,
+			"scheduled" : true,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/TwitchPartnerSpotlight.png",
+			"stream" : {
+				"_id" : 22487721312,
+				"game" : "Pokémon Omega Ruby/Alpha Sapphire",
+				"viewers" : 769,
+				"video_height" : 1080,
+				"average_fps" : 60,
+				"delay" : 0,
+				"created_at" : "2016-07-24T14:24:28Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_galacticelliot-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_galacticelliot-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_galacticelliot-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_galacticelliot-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/galacticelliot"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Pokemon HG Shiny Badge Quest! | Double RE's for Shiny Koffing! FULL ODDS! | Interactive Stream",
+					"broadcaster_language" : "en",
+					"display_name" : "GalacticElliot",
+					"game" : "Pokémon Omega Ruby/Alpha Sapphire",
+					"language" : "en",
+					"_id" : 29088092,
+					"name" : "galacticelliot",
+					"created_at" : "2012-03-17T23:15:33Z",
+					"updated_at" : "2016-07-24T17:34:33Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/galacticelliot-profile_image-518ad4a2b8be4e62-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/galacticelliot-channel_offline_image-e65f84dbcaea4c00-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/galacticelliot-profile_banner-4a6c7a5489a87ccc-480.png",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/galacticelliot",
+					"views" : 837587,
+					"followers" : 31307,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/galacticelliot",
+						"follows" : "https://api.twitch.tv/kraken/channels/galacticelliot/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/galacticelliot/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/galacticelliot/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/galacticelliot",
+						"features" : "https://api.twitch.tv/kraken/channels/galacticelliot/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/galacticelliot/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/galacticelliot/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/galacticelliot/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/galacticelliot/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Complete your day with a shot of top-shelf awesome sauce! Kevin Pereira, Alex Corea, and the Attack crew run down the day’s biggest stories, best videos and scour the darkest corners of the interwebs to bring the stuff you’ll wish you could un-see. Come chat, submit links and voice your opinion on The Attack. <a href=\"/theattack\">We’re your family now.</a></p>\n",
+			"title" : "The Attack with Kevin Pereira",
+			"sponsored" : false,
+			"priority" : 9,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/theattack_attack2016.png",
+			"stream" : {
+				"_id" : 22488546736,
+				"game" : "Creative",
+				"viewers" : 188,
+				"video_height" : 720,
+				"average_fps" : 59.9496221662,
+				"delay" : 0,
+				"created_at" : "2016-07-24T15:43:07Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_theattack-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_theattack-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_theattack-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_theattack-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/theattack"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Attack Show Ep.177 Re Air",
+					"broadcaster_language" : "en",
+					"display_name" : "TheAttack",
+					"game" : "Creative",
+					"language" : "en",
+					"_id" : 41226075,
+					"name" : "theattack",
+					"created_at" : "2013-03-11T03:56:21Z",
+					"updated_at" : "2016-07-24T17:34:45Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/theattack-profile_image-9e915a9a2ae8a1e1-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/theattack-channel_offline_image-9b72394c9c903810-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/theattack-profile_banner-c8f87f1d895d8284-480.png",
+					"profile_banner_background_color" : "#00a7ca",
+					"partner" : true,
+					"url" : "https://www.twitch.tv/theattack",
+					"views" : 5270730,
+					"followers" : 58543,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/theattack",
+						"follows" : "https://api.twitch.tv/kraken/channels/theattack/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/theattack/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/theattack/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/theattack",
+						"features" : "https://api.twitch.tv/kraken/channels/theattack/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/theattack/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/theattack/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/theattack/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/theattack/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>John \"TotalBiscuit\" has had an illustrious broadcasting career. Starting as a DJ at the young age of 13! Fast-forward to present day, you can find TotalBiscuit on Twitch hosting a variety of shows revolving around League of Legends, Starcraft 2 and SMITE. Join the one, the only, TotalBiscuit for interactive gameplay and commentary live!</p>\n\n<br>\n\n\n<p><a href=\"/totalbiscuit\">Click here to watch TotalBiscuit live!</a></p>\n\n<p><a href=\"personality,%20variety,%20esports,%20sc2\"></a></p>\n",
+			"title" : "Totalbiscuit",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/totalbiscuit.png",
+			"stream" : {
+				"_id" : 22486942448,
+				"game" : "StarCraft II",
+				"viewers" : 24945,
+				"video_height" : 1080,
+				"average_fps" : 30.8333333333,
+				"delay" : 0,
+				"created_at" : "2016-07-24T13:00:51Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_totalbiscuit-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_totalbiscuit-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_totalbiscuit-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_totalbiscuit-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/totalbiscuit"
+				},
+				"channel" : {
+					"mature" : true,
+					"status" : "SHOUTcraft Kings - The Ultimate Starcraft King of the Hill",
+					"broadcaster_language" : "en",
+					"display_name" : "Totalbiscuit",
+					"game" : "StarCraft II",
+					"language" : "en",
+					"_id" : 12616386,
+					"name" : "totalbiscuit",
+					"created_at" : "2010-05-14T16:54:15Z",
+					"updated_at" : "2016-07-24T17:34:28Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/totalbiscuit-profile_image-502dcf27f785c632-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/totalbiscuit-channel_offline_image-3c127ba9b0ae7fec-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/totalbiscuit-profile_banner-1bd08282a8f11f71-480.png",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/totalbiscuit",
+					"views" : 48067270,
+					"followers" : 459545,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/totalbiscuit",
+						"follows" : "https://api.twitch.tv/kraken/channels/totalbiscuit/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/totalbiscuit/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/totalbiscuit/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/totalbiscuit",
+						"features" : "https://api.twitch.tv/kraken/channels/totalbiscuit/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/totalbiscuit/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/totalbiscuit/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/totalbiscuit/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/totalbiscuit/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Better known to the masses as 'Ox', Ox33 is an extremely interactive streamer who loves to engage his chat. Indie titles, 'AAA', PC/Console...</p>\n\n<p>You will find all aspects of gaming and interaction in this friendly community</p>\n\n<br>\n\n\n<p><a href=\"/Ox33\">Click here</a> to watch and chat!</p>\n\n<p><a href=\"personality,%20variety\"></a></p>\n",
+			"title" : "0x33",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/0x33.jpg",
+			"stream" : {
+				"_id" : 22486929424,
+				"game" : "Terraria",
+				"viewers" : 134,
+				"video_height" : 720,
+				"average_fps" : 30.01017294,
+				"delay" : 0,
+				"created_at" : "2016-07-24T12:59:28Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_ox33-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_ox33-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_ox33-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_ox33-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/ox33"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Hardcore Expert No Armor! (Also 1.3.2.1 PATCH HYPE!)",
+					"broadcaster_language" : "en",
+					"display_name" : "Ox33",
+					"game" : "Terraria",
+					"language" : "en",
+					"_id" : 27781480,
+					"name" : "ox33",
+					"created_at" : "2012-01-27T18:39:09Z",
+					"updated_at" : "2016-07-24T17:34:17Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/ox33-profile_image-e99b0aba2a2b9663-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/ox33-channel_offline_image-908f710b3834f329-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/ox33-profile_banner-82a6539c58b581df-480.jpeg",
+					"profile_banner_background_color" : "#23326e",
+					"partner" : true,
+					"url" : "https://www.twitch.tv/ox33",
+					"views" : 434960,
+					"followers" : 19780,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/ox33",
+						"follows" : "https://api.twitch.tv/kraken/channels/ox33/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/ox33/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/ox33/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/ox33",
+						"features" : "https://api.twitch.tv/kraken/channels/ox33/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/ox33/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/ox33/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/ox33/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/ox33/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Matt's stream is all about interacting with the viewers and kicking ass on games. Watch for some of the best Gameplay on Battlefield 4 and Hardline, as well as a bunch of other titles.</p>\n\n<br>\n\n\n<p><a href=\"/matthewselby\">Click here</a> to watch and chat!</p>\n",
+			"title" : "MatthewSelby - The happy Gamer",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/matthewselby_fpthumb_52015.jpg",
+			"stream" : {
+				"_id" : 22490136288,
+				"game" : "Battlefield 4",
+				"viewers" : 8,
+				"video_height" : 720,
+				"average_fps" : 30,
+				"delay" : 0,
+				"created_at" : "2016-07-24T17:54:28Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_matthewselby-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_matthewselby-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_matthewselby-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_matthewselby-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/matthewselby"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Twitch bants",
+					"broadcaster_language" : "en",
+					"display_name" : "MatthewSelby",
+					"game" : "Battlefield 4",
+					"language" : "en",
+					"_id" : 46025064,
+					"name" : "matthewselby",
+					"created_at" : "2013-07-13T18:43:58Z",
+					"updated_at" : "2016-07-24T17:55:21Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/matthewselby-profile_image-aed9fab7241791c0-300x300.jpeg",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/matthewselby-channel_offline_image-507eb444a5ff93cb-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/matthewselby-profile_banner-819431a26827451e-480.png",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/matthewselby",
+					"views" : 332216,
+					"followers" : 15536,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/matthewselby",
+						"follows" : "https://api.twitch.tv/kraken/channels/matthewselby/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/matthewselby/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/matthewselby/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/matthewselby",
+						"features" : "https://api.twitch.tv/kraken/channels/matthewselby/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/matthewselby/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/matthewselby/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/matthewselby/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/matthewselby/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Made famous for his Dark Souls challenge runs, LobosJR seeks\nadversity in the form of Roguelikes, RPGs, speedruns of all kinds, and much\nmuch more.</p>\n\n<br>\n\n\n<p><a href=\"/lobosjr\">Join LobosJR and his Wolfpack in a closely knit gaming community!</a></p>\n",
+			"title" : "LobosJr",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/lobos_fpthumb_12015.png",
+			"stream" : {
+				"_id" : 22488606176,
+				"game" : "Cities: Skylines",
+				"viewers" : 838,
+				"video_height" : 720,
+				"average_fps" : 61.6666666667,
+				"delay" : 0,
+				"created_at" : "2016-07-24T15:48:36Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_lobosjr-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_lobosjr-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_lobosjr-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_lobosjr-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/lobosjr"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Sunday Stream! Cities: Skylines",
+					"broadcaster_language" : "en",
+					"display_name" : "LobosJR",
+					"game" : "Cities: Skylines",
+					"language" : "en",
+					"_id" : 28640725,
+					"name" : "lobosjr",
+					"created_at" : "2012-03-02T01:31:14Z",
+					"updated_at" : "2016-07-24T17:33:59Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/lobosjr-profile_image-b5e3a6c3556aed54-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/lobosjr-channel_offline_image-fb2f96191e673238-1920x1080.png",
+					"background" : null,
+					"profile_banner" : null,
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/lobosjr",
+					"views" : 9046629,
+					"followers" : 165902,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/lobosjr",
+						"follows" : "https://api.twitch.tv/kraken/channels/lobosjr/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/lobosjr/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/lobosjr/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/lobosjr",
+						"features" : "https://api.twitch.tv/kraken/channels/lobosjr/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/lobosjr/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/lobosjr/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/lobosjr/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/lobosjr/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Hotted has achieved several rank 1 titles over his gaming history. A creator of instructional content for the Razer Academy and broadcaster of high rated arenas, competitive PvP and PvE, so feel free to check him out!</p>\n\n<br>\n\n\n<p>Join Hotted live by <a href=\"/hotted89\">clicking here!</a></p>\n\n<p><a href=\"personality,%20pro\"></a></p>\n",
+			"title" : "Hotted",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/hotted89_fpthumb_112014.jpg",
+			"stream" : {
+				"_id" : 22487929136,
+				"game" : "Counter-Strike: Global Offensive",
+				"viewers" : 383,
+				"video_height" : 1080,
+				"average_fps" : 48.6522024984,
+				"delay" : 0,
+				"created_at" : "2016-07-24T14:45:18Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_hotted89-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_hotted89-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_hotted89-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_hotted89-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/hotted89"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Gamma Cases,Mm w/ @hotted89 KarambiT FN Doppler GIVEAWAY: https://twitter.com/hotted89/status/756549783146364930",
+					"broadcaster_language" : "en",
+					"display_name" : "Hotted89",
+					"game" : "Counter-Strike: Global Offensive",
+					"language" : "en",
+					"_id" : 20260659,
+					"name" : "hotted89",
+					"created_at" : "2011-02-07T23:07:13Z",
+					"updated_at" : "2016-07-24T17:34:29Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/hotted89-profile_image-41e8e977e539fba4-300x300.jpeg",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/hotted89-channel_offline_image-8e2fd34ace3b06e3-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/hotted89-profile_banner-71288b3d92d9108b-480.png",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/hotted89",
+					"views" : 6143289,
+					"followers" : 219566,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/hotted89",
+						"follows" : "https://api.twitch.tv/kraken/channels/hotted89/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/hotted89/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/hotted89/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/hotted89",
+						"features" : "https://api.twitch.tv/kraken/channels/hotted89/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/hotted89/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/hotted89/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/hotted89/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/hotted89/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Atheroangel is a British Heroes of the Storm player for Team Dignitas and BlizzCon 2015 finalist. Despite being a relatively new player to the game, he has established himself as one of the most fearsome warrior players in the scene.</p>\n\n<br>\n\n\n<p><a href=\"/atheroangel\">Click here</a> to watch and chat.</p>\n",
+			"title" : "Atheroangel ",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/atheroangel_fpthumb_dignitas.png",
+			"stream" : {
+				"_id" : 22489135280,
+				"game" : "Heroes of the Storm",
+				"viewers" : 21,
+				"video_height" : 1080,
+				"average_fps" : 30.0132802125,
+				"delay" : 0,
+				"created_at" : "2016-07-24T16:35:57Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_atheroangel-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_atheroangel-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_atheroangel-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_atheroangel-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/atheroangel"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Liquid Atheroangel / @QNGaming Giveaway / AMA / Teamleague with TL",
+					"broadcaster_language" : "en",
+					"display_name" : "Atheroangel",
+					"game" : "Heroes of the Storm",
+					"language" : "en",
+					"_id" : 25709740,
+					"name" : "atheroangel",
+					"created_at" : "2011-10-25T21:17:23Z",
+					"updated_at" : "2016-07-24T17:34:21Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/atheroangel-profile_image-a93ee1a5c6bf7600-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/atheroangel-channel_offline_image-44f3ecf4e23534a0-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/atheroangel-profile_banner-868466851354c090-480.png",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/atheroangel",
+					"views" : 41614,
+					"followers" : 1376,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/atheroangel",
+						"follows" : "https://api.twitch.tv/kraken/channels/atheroangel/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/atheroangel/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/atheroangel/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/atheroangel",
+						"features" : "https://api.twitch.tv/kraken/channels/atheroangel/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/atheroangel/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/atheroangel/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/atheroangel/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/atheroangel/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Cohh is a streamer with a focus on high viewer interactivity and a goal to always bring out the best in people. A guild leader of over a decade with a history of world firsts, Cohh is a gamer with a bottomless thirst for completion. With a focus on new MMO/general releases and streaming every day, Cohh continues forward with his community while maintaining a respectful and cheerful environment to make sure those watching have a great time. Stop by and say hello!</p>\n\n<br>\n\n\n<p><a href=\"/CohhCarnage\">Click here to watch and chat live!</a></p>\n\n<p><a href=\"variety,%20player,%20community,%20personality\"></a></p>\n",
+			"title" : "CohhCarnage!",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/cohcarnage.png",
+			"stream" : {
+				"_id" : 22490196080,
+				"game" : "Starbound",
+				"viewers" : 703,
+				"video_height" : 720,
+				"average_fps" : 60,
+				"delay" : 0,
+				"created_at" : "2016-07-24T17:58:36Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_cohhcarnage-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_cohhcarnage-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_cohhcarnage-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_cohhcarnage-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/cohhcarnage"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "[!Shirt]  Starbound \\o/ - Working through ... well... everything! :D -  Day 1002 of !4year",
+					"broadcaster_language" : "en",
+					"display_name" : "CohhCarnage",
+					"game" : "Starbound",
+					"language" : "en",
+					"_id" : 26610234,
+					"name" : "cohhcarnage",
+					"created_at" : "2011-12-06T18:20:34Z",
+					"updated_at" : "2016-07-24T17:34:43Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/cohhcarnage-profile_image-170de4e7853fde48-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/cohhcarnage-channel_offline_image-0a9c842ac447a3b3-1920x1080.jpeg",
+					"background" : null,
+					"profile_banner" : null,
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/cohhcarnage",
+					"views" : 38150803,
+					"followers" : 632581,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/cohhcarnage",
+						"follows" : "https://api.twitch.tv/kraken/channels/cohhcarnage/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/cohhcarnage/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/cohhcarnage/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/cohhcarnage",
+						"features" : "https://api.twitch.tv/kraken/channels/cohhcarnage/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/cohhcarnage/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/cohhcarnage/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/cohhcarnage/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/cohhcarnage/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Orb - The Young Swede - is a former competitive Counter-Strike player turned streamer. Watch him play a variety of games with emphasis on First-Person Shooters. If you think having fun whilst playing games is important then this is the stream for you.</p>\n\n<br>\n\n\n<p><a href=\"/orb\">Click here</a> to watch and join the community!</p>\n",
+			"title" : "Orb - The Young Swede",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/orb_swede_frontpage_thumbnail.png",
+			"stream" : {
+				"_id" : 22487425648,
+				"game" : "H1Z1: King of the Kill",
+				"viewers" : 249,
+				"video_height" : 720,
+				"average_fps" : 60.8823529412,
+				"delay" : 0,
+				"created_at" : "2016-07-24T13:53:37Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_orb-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_orb-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_orb-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_orb-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/orb"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "SUB APPRECIATION DAY - Join in: !discord !steam",
+					"broadcaster_language" : "en",
+					"display_name" : "Orb",
+					"game" : "H1Z1: King of the Kill",
+					"language" : "en",
+					"_id" : 20519306,
+					"name" : "orb",
+					"created_at" : "2011-02-17T07:14:53Z",
+					"updated_at" : "2016-07-24T17:34:12Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/orb-profile_image-cd342dff562b3d3b-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/orb-channel_offline_image-0a25e4d42192b514-1920x1080.jpeg",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/orb-profile_banner-d712edee09507f6f-480.png",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/orb",
+					"views" : 14649597,
+					"followers" : 145858,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/orb",
+						"follows" : "https://api.twitch.tv/kraken/channels/orb/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/orb/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/orb/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/orb",
+						"features" : "https://api.twitch.tv/kraken/channels/orb/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/orb/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/orb/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/orb/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/orb/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Welcome to one of the greatest gaming communities on Twitch! Here we discuss game play tips, advice, and theory craft while also having fun playing games! Enjoy your time here and feel free to ask me any questions in the chat :)</p>\n\n<br>\n\n\n<p><a href=\"/nightblue3\">Click here</a> to watch and chat!</p>\n",
+			"title" : "Nightblue Livestream!",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/nightblue3_fpthumb_32015.png",
+			"stream" : {
+				"_id" : 22486704176,
+				"game" : "League of Legends",
+				"viewers" : 28121,
+				"video_height" : 720,
+				"average_fps" : 60.0448933782,
+				"delay" : 0,
+				"created_at" : "2016-07-24T12:31:44Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_nightblue3-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_nightblue3-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_nightblue3-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_nightblue3-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/nightblue3"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Season 6 Jungle Patch 6.14 - CHALLENGER - Jungle Variety - UNLEASH YOUR INNER JUNGLER SPIRIT - WEEB FRIENDLY STREAM VoHiYo - @Nightbloo",
+					"broadcaster_language" : "en",
+					"display_name" : "Nightblue3",
+					"game" : "League of Legends",
+					"language" : "en",
+					"_id" : 26946000,
+					"name" : "nightblue3",
+					"created_at" : "2011-12-21T18:18:40Z",
+					"updated_at" : "2016-07-24T17:34:41Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/nightblue3-profile_image-be8a5ea2b11d7f12-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/nightblue3-channel_offline_image-4cc024a7516eedf4-1920x1080.jpeg",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/nightblue3-profile_banner-1d7d926bdc159d8b-480.png",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/nightblue3",
+					"views" : 143920536,
+					"followers" : 1475608,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/nightblue3",
+						"follows" : "https://api.twitch.tv/kraken/channels/nightblue3/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/nightblue3/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/nightblue3/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/nightblue3",
+						"features" : "https://api.twitch.tv/kraken/channels/nightblue3/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/nightblue3/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/nightblue3/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/nightblue3/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/nightblue3/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>dmbrandon and the rest of the Juice Gaming are always yelling about something! If you're a fan of Smite, this is the one stop shop: Content, humor, tutorials and high level play!</p>\n\n<br>\n\n\n<p><a href=\"/dmbrandon\">Click here</a> to watch and chat!</p>\n",
+			"title" : "dmbrandon",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/dmBrandon_fpthumb_22015.png",
+			"stream" : {
+				"_id" : 22488592080,
+				"game" : "Furi",
+				"viewers" : 622,
+				"video_height" : 720,
+				"average_fps" : 60.7369758577,
+				"delay" : 0,
+				"created_at" : "2016-07-24T15:47:21Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_dmbrandon-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_dmbrandon-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_dmbrandon-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_dmbrandon-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/dmbrandon"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "Fast Times",
+					"broadcaster_language" : "en",
+					"display_name" : "dmbrandon",
+					"game" : "Furi",
+					"language" : "en",
+					"_id" : 4420730,
+					"name" : "dmbrandon",
+					"created_at" : "2009-02-25T04:16:48Z",
+					"updated_at" : "2016-07-24T17:34:00Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/dmbrandon-profile_image-9b5af706b71a8b5d-300x300.jpeg",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/dmbrandon-channel_offline_image-c95f92d3c078d790-1920x1080.jpeg",
+					"background" : null,
+					"profile_banner" : null,
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/dmbrandon",
+					"views" : 7276619,
+					"followers" : 83895,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/dmbrandon",
+						"follows" : "https://api.twitch.tv/kraken/channels/dmbrandon/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/dmbrandon/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/dmbrandon/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/dmbrandon",
+						"features" : "https://api.twitch.tv/kraken/channels/dmbrandon/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/dmbrandon/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/dmbrandon/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/dmbrandon/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/dmbrandon/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>nVc is both a veteran commentator and competitive player. Having played Shootmania for Team Dignitas and commentated Quake among other games, he has the player knowledge and caster experience needed to entertain for hours on end.</p>\n\n<br>\n\n\n<p><a href=\"/justnvc\">Click here</a> to watch and chat!</p>\n",
+			"title" : "nVc",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/justnvc_22015.jpg",
+			"stream" : {
+				"_id" : 22489890336,
+				"game" : "Overwatch",
+				"viewers" : 7,
+				"video_height" : 720,
+				"average_fps" : 60,
+				"delay" : 0,
+				"created_at" : "2016-07-24T17:36:20Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_justnvc-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_justnvc-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_justnvc-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_justnvc-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/justnvc"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "[UK] StarTrek Beyond was amazing, now Overwatch!",
+					"broadcaster_language" : "en",
+					"display_name" : "justnvc",
+					"game" : "Overwatch",
+					"language" : "en",
+					"_id" : 7275079,
+					"name" : "justnvc",
+					"created_at" : "2009-07-17T20:35:39Z",
+					"updated_at" : "2016-07-24T16:30:57Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/justnvc-profile_image-4efd35060e6703a6-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/justnvc-channel_offline_image-e560eebcd2d4b756-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/justnvc-profile_banner-f502158c3d15b1e1-480.jpeg",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/justnvc",
+					"views" : 565435,
+					"followers" : 2208,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/justnvc",
+						"follows" : "https://api.twitch.tv/kraken/channels/justnvc/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/justnvc/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/justnvc/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/justnvc",
+						"features" : "https://api.twitch.tv/kraken/channels/justnvc/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/justnvc/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/justnvc/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/justnvc/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/justnvc/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Watch out for that Creeper! Join Sevadus–one of the nicest broadcasters around. As he doges lava, killer sheep and of course Creepers. Sevadus must be a marathon man, with his impromptu 72 hour streams that literally come out of nowhere. You're not going to want to miss any of this Minecraft insanity.</p>\n\n<br>\n\n\n<p><a href=\"/Sevadus\">Click here to creep on Sevadus live!</a></p>\n",
+			"title" : "Sevadus",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/Sevadus.png",
+			"stream" : {
+				"_id" : 22488423648,
+				"game" : "Minecraft",
+				"viewers" : 2995,
+				"video_height" : 900,
+				"average_fps" : 61.2244897959,
+				"delay" : 0,
+				"created_at" : "2016-07-24T15:31:25Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_sevadus-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_sevadus-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_sevadus-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_sevadus-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/sevadus"
+				},
+				"channel" : {
+					"mature" : true,
+					"status" : "Unbelievable .:. @Sevadus",
+					"broadcaster_language" : "en",
+					"display_name" : "Sevadus",
+					"game" : "Minecraft",
+					"language" : "en",
+					"_id" : 25553391,
+					"name" : "sevadus",
+					"created_at" : "2011-10-18T19:17:47Z",
+					"updated_at" : "2016-07-24T17:34:14Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/sevadus-profile_image-85d0478eda786c10-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/sevadus-channel_offline_image-a24c411982078268-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/sevadus-profile_banner-35a0f4b61f0cad71-480.png",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/sevadus",
+					"views" : 23519915,
+					"followers" : 387551,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/sevadus",
+						"follows" : "https://api.twitch.tv/kraken/channels/sevadus/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/sevadus/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/sevadus/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/sevadus",
+						"features" : "https://api.twitch.tv/kraken/channels/sevadus/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/sevadus/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/sevadus/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/sevadus/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/sevadus/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Welcome to Team Tangent; a brotherhood and\nsisterhood of casual and hardcore gamers alike. High energy and high viewer\ninteractivity is Tangent's creed as he tackles rage inducing challenges\nwhile taking on some of the best (and worst) games from yesterday and\ntoday! If you like Persian kittens, beards and a tightly knit community\nthen Tangentgaming is for you!</p>\n\n<br>\n\n\n<p><a href=\"/tangentgaming\">Click here</a> to watch and chat!</p>\n",
+			"title" : "Tangentgaming",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/TangRageBanner 140x78.png",
+			"stream" : {
+				"_id" : 22489973600,
+				"game" : "Pokémon Go",
+				"viewers" : 306,
+				"video_height" : 720,
+				"average_fps" : 60,
+				"delay" : 0,
+				"created_at" : "2016-07-24T17:42:30Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/tangentgaming"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "lvl 25 Trainer HIKER climbs a Mountain! | Nature Stream. Sub Goal: 818/900 7+ New Emotes inbound!",
+					"broadcaster_language" : "en",
+					"display_name" : "TangentGaming",
+					"game" : "Pokémon Go",
+					"language" : "en",
+					"_id" : 40314423,
+					"name" : "tangentgaming",
+					"created_at" : "2013-02-14T15:19:05Z",
+					"updated_at" : "2016-07-24T17:34:13Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-profile_image-d91b58cc81cbcb5d-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-channel_offline_image-1e09a1314d3708b2-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-profile_banner-0ca2e5010c14968c-480.png",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/tangentgaming",
+					"views" : 3979736,
+					"followers" : 144072,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/tangentgaming",
+						"follows" : "https://api.twitch.tv/kraken/channels/tangentgaming/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/tangentgaming/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/tangentgaming/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/tangentgaming",
+						"features" : "https://api.twitch.tv/kraken/channels/tangentgaming/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/tangentgaming/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/tangentgaming/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/tangentgaming/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/tangentgaming/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>The official channel for all things SMITE, the DOTA-inspired Battleground of the Gods from Hi-Rez Studios.  The Smitegame channel brings you some of the top competitive Smite players and the most fun Smite streamers, all around the clock. Join in amazing Smite gameplay, weekend tournament coverage, and exclusive content reveals all right here!</p>\n\n<br>\n\n\n<p> <a href=\"/smitegame\">Click here</a> to get in touch with everything SMITE.</p>\n",
+			"title" : "SMITE",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/SMITE_thumbnail.jpg",
+			"stream" : {
+				"_id" : 22489139856,
+				"game" : "Smite",
+				"viewers" : 1812,
+				"video_height" : 1080,
+				"average_fps" : 60.0220264317,
+				"delay" : 0,
+				"created_at" : "2016-07-24T16:36:19Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_hireztv-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_hireztv-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_hireztv-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_hireztv-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/hireztv"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "SMITE Summer Joust Series Week 4",
+					"broadcaster_language" : "en",
+					"display_name" : "HiRezTV",
+					"game" : "Smite",
+					"language" : "en",
+					"_id" : 31500812,
+					"name" : "hireztv",
+					"created_at" : "2012-06-20T21:05:55Z",
+					"updated_at" : "2016-07-24T17:33:59Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/hireztv-profile_image-65062592ee8e9541-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/hireztv-channel_offline_image-6002d4c6f17dd1f5-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/hireztv-profile_banner-bc41a9a78aeed3e6-480.jpeg",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/hireztv",
+					"views" : 134936389,
+					"followers" : 320038,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/hireztv",
+						"follows" : "https://api.twitch.tv/kraken/channels/hireztv/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/hireztv/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/hireztv/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/hireztv",
+						"features" : "https://api.twitch.tv/kraken/channels/hireztv/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/hireztv/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/hireztv/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/hireztv/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/hireztv/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>SnarfyBobo is a chill, magical streamer that focuses on having an amazing chat.  Come join him on his magical adventures through Mario games, or whatever else he's playing!</p>\n\n<br>\n\n\n<p><a href=\"/snarfybobo\">Magical peanut butter squares!</a></p>\n",
+			"title" : "SnarfyBobo",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/snarfybobo.png",
+			"stream" : {
+				"_id" : 22485889600,
+				"game" : "FTL: Faster Than Light",
+				"viewers" : 507,
+				"video_height" : 1080,
+				"average_fps" : 60.625,
+				"delay" : 0,
+				"created_at" : "2016-07-24T10:39:56Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_snarfybobo-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_snarfybobo-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_snarfybobo-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_snarfybobo-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/snarfybobo"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "FTL Hard is a Mario | #SnarfWeekend #SnarfJuly",
+					"broadcaster_language" : "en",
+					"display_name" : "SnarfyBobo",
+					"game" : "FTL: Faster Than Light",
+					"language" : "en",
+					"_id" : 47317808,
+					"name" : "snarfybobo",
+					"created_at" : "2013-08-09T03:53:40Z",
+					"updated_at" : "2016-07-24T17:34:42Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/snarfybobo-profile_image-6e257b35aa3af4b3-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/snarfybobo-channel_offline_image-1c7e4565215df665-1920x1080.png",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/snarfybobo-profile_banner-1440993a725db40d-480.png",
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/snarfybobo",
+					"views" : 2789443,
+					"followers" : 49835,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/snarfybobo",
+						"follows" : "https://api.twitch.tv/kraken/channels/snarfybobo/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/snarfybobo/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/snarfybobo/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/snarfybobo",
+						"features" : "https://api.twitch.tv/kraken/channels/snarfybobo/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/snarfybobo/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/snarfybobo/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/snarfybobo/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/snarfybobo/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Playing games so much you'd think I never sleep. Maybe I'm a vampire. If it's tank warfare or any new hot games, I got it all. Come check the show out! Who knows - maybe you'll even like it.</p>\n\n<br>\n\n\n<p><a href=\"/orzanel\">Click here</a> to watch and chat!</p>\n",
+			"title" : "The Show That Never Ends",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/orzanel_fpthumb_nov2015.jpg",
+			"stream" : {
+				"_id" : 22487502384,
+				"game" : "World of Tanks",
+				"viewers" : 192,
+				"video_height" : 720,
+				"average_fps" : 60.8321377331,
+				"delay" : 0,
+				"created_at" : "2016-07-24T14:01:38Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_orzanel-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_orzanel-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_orzanel-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_orzanel-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/orzanel"
+				},
+				"channel" : {
+					"mature" : false,
+					"status" : "ENG/RO - [3400+WN8] - Sunday Chill",
+					"broadcaster_language" : "en",
+					"display_name" : "Orzanel",
+					"game" : "World of Tanks",
+					"language" : "en",
+					"_id" : 44536868,
+					"name" : "orzanel",
+					"created_at" : "2013-06-09T13:15:31Z",
+					"updated_at" : "2016-07-24T17:55:41Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/orzanel-profile_image-8ca596afdca44979-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/orzanel-channel_offline_image-e98f50b7f3ec7350-1920x1080.jpeg",
+					"background" : null,
+					"profile_banner" : null,
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/orzanel",
+					"views" : 2566360,
+					"followers" : 29150,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/orzanel",
+						"follows" : "https://api.twitch.tv/kraken/channels/orzanel/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/orzanel/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/orzanel/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/orzanel",
+						"features" : "https://api.twitch.tv/kraken/channels/orzanel/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/orzanel/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/orzanel/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/orzanel/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/orzanel/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Montana's own Guy on a Buffalo Eddie Ruckus offers one of the most chat\ninteractive live streams on Twitch! Whether building complex machines in\nMinecraft, one-sitting newly released games, or playing through classics\nfrom any generation, you're sure to have a great time!</p>\n\n<br>\n\n\n<p><a href=\"/eddieruckus\">Click here to watch and chat live with Eddie!</a></p>\n\n<p><a href=\"variety,%20personality\"></a></p>\n",
+			"title" : "EddieRuckus",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/eddieruckus.jpg",
+			"stream" : {
+				"_id" : 22489952480,
+				"game" : "Minecraft",
+				"viewers" : 17,
+				"video_height" : 540,
+				"average_fps" : 30,
+				"delay" : 0,
+				"created_at" : "2016-07-24T17:40:59Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_eddieruckus-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_eddieruckus-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_eddieruckus-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_eddieruckus-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/eddieruckus"
+				},
+				"channel" : {
+					"mature" : true,
+					"status" : "Project Ozone 2 *Closed Beta* - MC 1.7.10",
+					"broadcaster_language" : "en",
+					"display_name" : "EddieRuckus",
+					"game" : "Minecraft",
+					"language" : "en",
+					"_id" : 20773527,
+					"name" : "eddieruckus",
+					"created_at" : "2011-02-27T10:08:38Z",
+					"updated_at" : "2016-07-24T17:30:04Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/eddieruckus-profile_image-80adc257ef2dd623-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/eddieruckus-channel_offline_image-ec700eda5b9b066c-1920x1080.jpeg",
+					"background" : null,
+					"profile_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/eddieruckus-profile_banner-5d2f581e104775e7-480.png",
+					"profile_banner_background_color" : "#46593a",
+					"partner" : true,
+					"url" : "https://www.twitch.tv/eddieruckus",
+					"views" : 5345265,
+					"followers" : 67913,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/eddieruckus",
+						"follows" : "https://api.twitch.tv/kraken/channels/eddieruckus/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/eddieruckus/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/eddieruckus/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/eddieruckus",
+						"features" : "https://api.twitch.tv/kraken/channels/eddieruckus/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/eddieruckus/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/eddieruckus/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/eddieruckus/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/eddieruckus/videos"
+					}
+				}
+			}
+		}, {
+			"text" : "<p>Hi, I'm Cody \"BigFoltz\" I mainly stream Call of Duty but I play other stuff every now and then.\nMy stream mostly consists of me interacting with chat and beast gameplay. I try my best to answer all your questions, so feel free to chat!</p>\n\n<br>\n\n\n<p><a href=\"/bigfoltz\">Click here</a> to watch and chat!</p>\n",
+			"title" : "BigFoltz",
+			"sponsored" : false,
+			"priority" : 10,
+			"scheduled" : false,
+			"image" : "https://s.jtvnw.net/jtv_user_pictures/hosted_images/BigFoltz_Avatar(TwitchHome)_22015.png",
+			"stream" : {
+				"_id" : 22482275520,
+				"game" : "Call of Duty: Black Ops III",
+				"viewers" : 692,
+				"video_height" : 720,
+				"average_fps" : 60.8823529412,
+				"delay" : 0,
+				"created_at" : "2016-07-24T03:00:24Z",
+				"is_playlist" : false,
+				"preview" : {
+					"small" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_bigfoltz-80x45.jpg",
+					"medium" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_bigfoltz-320x180.jpg",
+					"large" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_bigfoltz-640x360.jpg",
+					"template" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_bigfoltz-{width}x{height}.jpg"
+				},
+				"_links" : {
+					"self" : "https://api.twitch.tv/kraken/streams/bigfoltz"
+				},
+				"channel" : {
+					"mature" : true,
+					"status" : "1000 NUCLEAR STREAM! [800/1000] w/ DooM @Bigfoltz",
+					"broadcaster_language" : "en",
+					"display_name" : "Bigfoltz",
+					"game" : "Call of Duty: Black Ops III",
+					"language" : "en",
+					"_id" : 32607302,
+					"name" : "bigfoltz",
+					"created_at" : "2012-08-01T09:25:43Z",
+					"updated_at" : "2016-07-24T17:48:21Z",
+					"delay" : null,
+					"logo" : "https://static-cdn.jtvnw.net/jtv_user_pictures/bigfoltz-profile_image-959d5b5eb66a1559-300x300.png",
+					"banner" : null,
+					"video_banner" : "https://static-cdn.jtvnw.net/jtv_user_pictures/bigfoltz-channel_offline_image-133ca1720c5536eb-1920x1080.png",
+					"background" : null,
+					"profile_banner" : null,
+					"profile_banner_background_color" : null,
+					"partner" : true,
+					"url" : "https://www.twitch.tv/bigfoltz",
+					"views" : 5644296,
+					"followers" : 428224,
+					"_links" : {
+						"self" : "https://api.twitch.tv/kraken/channels/bigfoltz",
+						"follows" : "https://api.twitch.tv/kraken/channels/bigfoltz/follows",
+						"commercial" : "https://api.twitch.tv/kraken/channels/bigfoltz/commercial",
+						"stream_key" : "https://api.twitch.tv/kraken/channels/bigfoltz/stream_key",
+						"chat" : "https://api.twitch.tv/kraken/chat/bigfoltz",
+						"features" : "https://api.twitch.tv/kraken/channels/bigfoltz/features",
+						"subscriptions" : "https://api.twitch.tv/kraken/channels/bigfoltz/subscriptions",
+						"editors" : "https://api.twitch.tv/kraken/channels/bigfoltz/editors",
+						"teams" : "https://api.twitch.tv/kraken/channels/bigfoltz/teams",
+						"videos" : "https://api.twitch.tv/kraken/channels/bigfoltz/videos"
+					}
+				}
+			}
+		}
+	]
+}

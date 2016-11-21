@@ -1,0 +1,94 @@
+{
+    "batchcomplete": "",
+    "continue": {
+        "sroffset": 10,
+        "continue": "-||links"
+    },
+    "query": {
+        "searchinfo": {
+            "totalhits": 238301
+        },
+        "search": [
+            {
+                "ns": 0,
+                "title": "Audio",
+                "snippet": "<span class=\"searchmatch\">Audio</span> may refer to:   <span class=\"searchmatch\">Audio</span> signal, an electrical representation of sound <span class=\"searchmatch\">Audio</span> frequency, a frequency in the <span class=\"searchmatch\">audio</span> spectrum Digital <span class=\"searchmatch\">audio</span>, representation",
+                "size": 980,
+                "wordcount": 116,
+                "timestamp": "2016-03-31T18:17:40Z"
+            },
+            {
+                "ns": 0,
+                "title": "List of Transformers audio releases",
+                "snippet": "This is a list of <span class=\"searchmatch\">audio</span> releases in the Transformers media franchise. The Transformers The Movie: Original Motion Picture Soundtrack Transformers: Theme",
+                "size": 705,
+                "wordcount": 67,
+                "timestamp": "2016-06-15T02:18:11Z"
+            },
+            {
+                "ns": 0,
+                "title": "Audio codec",
+                "snippet": "An <span class=\"searchmatch\">audio</span> codec is a device or computer program capable of coding or decoding a digital data stream of <span class=\"searchmatch\">audio</span>. In software, an <span class=\"searchmatch\">audio</span> codec is a computer",
+                "size": 2256,
+                "wordcount": 254,
+                "timestamp": "2016-04-03T16:52:56Z"
+            },
+            {
+                "ns": 0,
+                "title": "Audio mixing",
+                "snippet": "<span class=\"searchmatch\">Audio</span> mixing is the process by which multiple sounds are combined into one or more channels. In the process, the source signals' level, frequency content",
+                "size": 3588,
+                "wordcount": 404,
+                "timestamp": "2016-06-13T15:22:56Z"
+            },
+            {
+                "ns": 0,
+                "title": "Audio signal",
+                "snippet": "An <span class=\"searchmatch\">audio</span> signal is a representation of sound, typically as an electrical voltage. <span class=\"searchmatch\">Audio</span> signals have frequencies in the <span class=\"searchmatch\">audio</span> frequency range of roughly",
+                "size": 3424,
+                "wordcount": 384,
+                "timestamp": "2016-03-30T01:57:17Z"
+            },
+            {
+                "ns": 0,
+                "title": "Audio engineer",
+                "snippet": "&quot;<span class=\"searchmatch\">Audio</span> editor&quot; redirects here. For <span class=\"searchmatch\">audio</span> editing software, see Digital <span class=\"searchmatch\">audio</span> editor.      An <span class=\"searchmatch\">audio</span> engineer works on the recording, manipulation using",
+                "size": 29907,
+                "wordcount": 3187,
+                "timestamp": "2016-07-11T18:38:28Z"
+            },
+            {
+                "ns": 0,
+                "title": "Second audio program",
+                "snippet": "Second <span class=\"searchmatch\">audio</span> program (SAP), also known as secondary <span class=\"searchmatch\">audio</span> programming, is an auxiliary <span class=\"searchmatch\">audio</span> channel for analog television that can be broadcast or transmitted",
+                "size": 4834,
+                "wordcount": 649,
+                "timestamp": "2016-06-04T10:02:32Z"
+            },
+            {
+                "ns": 0,
+                "title": "DVD-Audio",
+                "snippet": "DVD-<span class=\"searchmatch\">Audio</span> (commonly abbreviated as DVD-A) is a digital format for delivering high-fidelity <span class=\"searchmatch\">audio</span> content on a DVD. DVD-<span class=\"searchmatch\">Audio</span> uses most of the storage on",
+                "size": 20147,
+                "wordcount": 2446,
+                "timestamp": "2016-01-11T13:20:20Z"
+            },
+            {
+                "ns": 0,
+                "title": "Omega (audio drama)",
+                "snippet": "Omega is a Big Finish Productions <span class=\"searchmatch\">audio</span> drama based on the long-running British science fiction television series Doctor Who.   Jolly Chronolidays is",
+                "size": 2792,
+                "wordcount": 250,
+                "timestamp": "2015-12-26T03:16:03Z"
+            },
+            {
+                "ns": 0,
+                "title": "Audio editing software",
+                "snippet": "<span class=\"searchmatch\">Audio</span> editing software is software which allows editing and generating of <span class=\"searchmatch\">audio</span> data. <span class=\"searchmatch\">Audio</span> editing software can be implemented completely or partly as",
+                "size": 6469,
+                "wordcount": 908,
+                "timestamp": "2016-05-26T23:47:29Z"
+            }
+        ]
+    }
+}

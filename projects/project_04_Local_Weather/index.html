@@ -1,0 +1,55 @@
+<html>
+    <!-- https://drive.google.com/open?id=0BzqHsg2oquFlTU8wZmEtSWhGZWc page background -->
+    <!-- https://drive.google.com/open?id=0BzqHsg2oquFlWFRiTGRXQzl4UTA forecast-bg -->
+<head>
+    <title>FCC Local Weather</title>
+    <link rel="stylesheet" href="../libs/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../libs/animate/animate.css">
+    <link rel="stylesheet" href="../libs/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="../libs/jquery/jquery-3.0.0.js"></script>
+    <script type="text/javascript" src="weather_mgr.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#city-state-text").bind("enterKey", function(){
+               if ($(this).val()){
+                   getWebWeatherData($("#city-state-text").val());//weather_mgr.js
+               } 
+            });
+            $("#city-state-text").keyup(function(e){
+                if (e.keyCode === 13){
+                    $(this).trigger("enterKey");
+                }
+            })
+        });
+        function getForecastForCityState(){
+            getWebWeatherData($("#city-state-text").val());//weather_mgr.js
+        }
+    </script>
+</head>
+<body class="body-bg">
+    <div class="container-fluid" style="margin-top: 1%">
+        <div class="row row-centered forecast-bg">
+            <div class="row row-centered">
+                <div class="col-md-12">
+                    <div class="title-text">FCC Weather</div>
+                </div>
+            </div>
+            <div class="row row-centered">
+                <fieldset class="form-inline form-group">
+                    <input id="city-state-text" type="control" class="input-text form-control" placeholder="City, State" style="text-align: center">
+                    <button type="button" class="btn btn-primary" onclick="getForecastForCityState()">Go!</button>
+                    <div id="status-text" class="status-text">Hello there!</div>
+                    <hr></hr>
+                </fieldset>
+            </div>
+        </div>
+        <div id="forecast-parent" class="container" style="margin-top: 1%">
+            <!-- populate with weather_mgr.js -->
+        </div>
+    </div>
+</body>
+
+</html>

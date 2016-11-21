@@ -1,0 +1,29 @@
+.remaining-time-label{
+    color: white;
+    font-size: 28px;
+    font-family: monospace, serif;
+}
+
+.work-time-label{
+    color: #dc143c;
+    font-size: 35px;
+    font-family: monospace, serif;
+}
+
+.rest-time-label{
+    color: #1e90ff;
+    font-size: 35px;
+    font-family: monospace, serif;
+}
+
+.work-time{
+    color: #dc143c;
+    font-size: 50px;
+    font-family: monospace, serif;
+}
+
+.rest-time{
+    color: #1e90ff;
+    font-size: 50px;
+    font-family: monospace, serif;
+}

@@ -1,0 +1,48 @@
+.title-header{
+    font-size: 50px;
+    text-align: center;
+}
+
+.bg-color-primary{
+    background-color: rgb(229,222,158);
+}
+.bg-color-primary-light{
+    background-color: rgb(255,247,176);
+}
+.bg-color-primary-med{
+    background-color: rgb(191,185,132);
+}
+.bg-color-primary-dark{
+    background-color: rgb(127,124,88);
+}
+.bg-color-primary-darker{
+    background-color: rgb(64,62,44);
+}
+.text-color-white{
+    color: white;
+}
+
+.result-page-text{
+    font-size: 22px;
+}
+
+.search-form-area{
+    padding: 32px;
+    border-radius: 5px;
+}
+
+.searchresult{
+    overflow: hidden;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-bottom: 2px;
+}
+
+.searchmatch{
+    color: cornflowerblue;
+}
+
+.row-centered{
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+.light{
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.md-font{
+    font-size: 35px;
+}
+
+.simon-btn{
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.red-btn{
+    background-color: #9d0000;
+}
+.red-btn-lit{
+    background-color: #d64747;
+}
+
+.green-btn{
+    background-color: #008100;
+}
+.green-btn-lit{
+    background-color: #36be36;
+}
+
+.yellow-btn{
+    background-color: #b5b500;
+}
+.yellow-btn-lit{
+    background-color: #e2e236;
+}
+
+.blue-btn{
+    background-color: #00009f;
+}
+.blue-btn-lit{
+    background-color: #4545ff;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .glyphicon_md{
+        font-size: 35px;
+    }
+    .bg-color-crimson{
+        background-color: crimson;
+    }
+    .color-crimson{
+        color: crimson;
+    }
+    .quote-font{
+        font-family: "Orbitron", serif;
+    }
+    .author-font{
+        font-family: "Russo One", serif;
+    }
+</style>
+<head>
+    <script type="text/javascript" src="../libs/jquery/jquery-3.0.0.js"></script>
+    <script type="text/javascript" src="quoter.js"></script>
+    <link rel="stylesheet" href="../libs/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <script type="text/javascript">
+        var quoter = new Quoter();//get random quotes and allows history navigation
+        var intervalLength = 15000;//the time it take for the quote to change without user input
+        var playing = true;//whether switching quotes automatically is enabled
+        var updateTimer = -1;//used to reference the current timer for getNewQuote
+        
+        function onClickNextQuote(e){
+            setNewQuote(quoter.getNextQuote());
+        }
+        
+        function onClickPrevQuote(){
+            var quote = quoter.getPrevQuote();
+            if (quote != null){
+                setNewQuote(quote);
+            }
+        }
+        
+        function onClickPlayPause(){
+            playing = !playing;
+            if (!playing){
+                $("#play_pause").removeClass("glyphicon-pause").addClass("glyphicon-play");
+                clearInterval(updateTimer);
+            }
+            else{
+                $("#play_pause").removeClass("glyphicon-play").addClass("glyphicon-pause");
+                updateTimer = setInterval(getNewQuote, intervalLength);
+            }
+        }
+        
+        function getNewQuote(){
+            var quote = quoter.getRandomLocalQuote();
+            setNewQuote(quote);
+        }
+        
+        function setNewQuote(quote){
+            $("#quote_text").html(quote.quote);
+            $("#author_name").html("<b>"+quote.author+"</b>");
+            resetUpdateTimer();
+        }
+        
+        updateTimer = setInterval(getNewQuote, intervalLength);
+        function resetUpdateTimer(){
+            if (!playing) return;
+            clearInterval(updateTimer);
+            updateTimer = setInterval(getNewQuote, intervalLength);
+        }
+    </script>
+    <title>Random Quotes: RL</title>
+</head>
+<body class="bg-color-crimson">
+    <div class="container-fluid" style="margin-top: 10%">
+        <div class="row" style="background-color: white; border-radius: 5px">
+            <div class="col-lg-12 text-center" style="min-height: 300px; width: 100%; height: 100%; padding-top:5%">
+                <div style="font-size: 30px">
+                    <blockquote style="border-left: none">
+                        <p id="quote_text" class="quote-font" style="font-size: 30px">A project for freeCodeCamp</p>
+                        <footer id="author_name" class="color-crimson author-font" style="font-size: 20px">RL</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <!-- QUOTE NAVIGATION CONTROLS -->
+        <div class="container-fluid text-center" style="border-radius: 5px; margin-top: -20px; padding-top: 10px; width: 25%; background-color: white">
+            <div class="row">
+                <div class="col-sm-4"><div class="glyphicon glyphicon-step-backward glyphicon_md" style="cursor: pointer" onclick="onClickPrevQuote()"></div></div>
+                <div class="col-sm-4"><div id="play_pause" class="glyphicon glyphicon-pause glyphicon_md" style="cursor: pointer" onclick="onClickPlayPause()"></div></div>
+                <div class="col-sm-4"><div class="glyphicon glyphicon-step-forward glyphicon_md" style="cursor: pointer" onclick="onClickNextQuote()"></div></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

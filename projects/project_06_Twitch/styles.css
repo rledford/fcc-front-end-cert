@@ -1,0 +1,54 @@
+.font-main{
+    font-family: "Tillana", serif;
+}
+.row-centered{
+    text-align: center;
+}
+
+.row.match-cols{
+    overflow: hidden;
+}
+
+.tab-title{
+    font-size: 18px;
+    color: white;
+}
+
+.main-bg{
+    background-color: blueviolet;
+}
+
+.stream-col{
+    background-color: black;
+    padding: 10px;
+    min-height: 90px;
+}
+
+.stream-col-image{
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.stream-col-description{
+    color: white;
+}
+
+.stream-col-white-text{
+    color: white;
+}
+
+.stream-display-name{
+    color: white;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+.img-rect-thumbnail{
+    border-radius: 2px;
+}
+
+.title{
+    color: black;
+    font-size: 100px;
+}
