@@ -1,0 +1,52 @@
+body {
+    margin: 25px;
+    font-family: 'Exo', 'Monaco';
+    background-color: #555;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+}
+
+h1 {
+    background-color: #ddd;
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: outset;
+    border-width: 5px;
+    color: #7b7;
+    font-size: 52px;
+}
+
+ul {
+    background-color: #ddd;
+    width: 50%;
+    margin-left: 10%;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #7b7;
+    border-width: 2px;
+}
+
+li {
+    color: black;
+}
+
+a {
+    color: #7b7;
+    text-decoration: none;
+}
+
+.first-letter {
+    font-size: 32px;
+    color: #7b7;
+}
+
+.year {
+    font-size: 24;
+    color: #7b7;
+}
