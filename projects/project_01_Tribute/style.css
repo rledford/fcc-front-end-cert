@@ -41,6 +41,16 @@ a {
     text-decoration: none;
 }
 
+.centered {
+  text-align: center;
+}
+
+.tribute-image {
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 5px;
+  color: #7b7;
+}
+
 .first-letter {
     font-size: 32px;
     color: #7b7;
@@ -49,4 +59,14 @@ a {
 .year {
     font-size: 24;
     color: #7b7;
+}
+
+.quote {
+  text-align: center;
+  font-size: 22px;
+  color: #ffffff
+}
+
+.reference {
+  text-align: right;
 }
